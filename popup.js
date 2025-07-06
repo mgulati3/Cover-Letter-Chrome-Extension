@@ -68,7 +68,7 @@ document.addEventListener('DOMContentLoaded', () => {
             };
 
             // API key will be provided by the Canvas environment at runtime
-            const apiKey = "AIzaSyCYLiE6Mx68w7cN2S9hAzVKqDOK_8rYv1o";
+            const apiKey = "";
             const apiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${apiKey}`;
 
             const response = await fetch(apiUrl, {
